@@ -2,7 +2,10 @@
 
 This is a simple chess board inspired from my own personal project [Chess-javascript](https://github.com/Inert-one/Chess).
 Though, This one is based on React-Redux, unlike the earlier one (JS). I gave it a new UI and Logical operations has also been changed as per React-environment.
+
+<p align="center">
 <img width="600" height="600" src="public/assets/react-chess.png" alt="react-chess">
+</p>
 
 ## Installation && Running
 
