@@ -1,0 +1,54 @@
+.container {
+    width: 100%;
+    padding-left: 0.5%;
+    padding-top: 0.5%;
+}
+.title{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+    padding-bottom: 1%;
+}
+
+.button {
+    padding: 1%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    align-self: start;
+    justify-content: center;
+    width: 90%;
+    height: 2em;
+    font-size: 18px;
+    background-color: transparent;
+    border: 1.5px #cecece solid;
+    border-radius: 25px;
+    color: #dbdbdb;
+}
+
+.button:hover {
+    inset: 2px;
+    cursor: pointer;
+    background: #ff0101;
+    color: #fff;
+}
+
+@media only screen and (max-width: 1000px) {
+    .container {
+        width: 100%;
+        padding-left: 0.5%;
+        padding-top: 0.5%;
+    }
+    .title{
+        font-size: 24px;
+    }
+}
+@media only screen and (max-width: 470px){
+    .button{
+        margin: 3% auto;
+    }
+    .title{
+        margin-top: 3%;
+        }
+}

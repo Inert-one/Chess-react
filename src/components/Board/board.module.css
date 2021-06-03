@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 2% 0;
+    width: 100%;
+}
+@media only screen and (max-width: 470px){
+    .container {
+        padding-top: 20%
+    }
+}

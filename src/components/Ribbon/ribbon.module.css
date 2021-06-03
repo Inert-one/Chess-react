@@ -1,0 +1,15 @@
+
+.footer {
+    background-color: #7f14f8;
+    position:fixed;
+    margin:0;
+    width: 200px;
+    padding: 10px;
+    left: -65px;
+    bottom: 30px;
+    font-size: 10px;
+    border-radius: 5px 5px 0 0;
+    text-align: center;
+    transform:rotate(45deg);
+    z-index: 555;
+  }
